@@ -167,6 +167,7 @@ background-color: rgba(255, 255, 255, .8);
 
   .container{
     /*Your code here:*/
+    display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: repeat(5,400px);
   }
